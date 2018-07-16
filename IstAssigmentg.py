@@ -18,7 +18,7 @@ print(','.join(num))
 firstname=input("What is your firstname?")
 lastname=input("What is your lastname?")
 name=firstname + " "+lastname
-name[::-1]
+print(name[::-1])
 
 
 # In[19]:
@@ -27,7 +27,7 @@ name[::-1]
 d=12
 r=d/2
 volume=4*3.14*r**3/3
-print(volume)
+print("The volume of sphere with radius 12 cm is ",volume)
 
 
 # In[20]:
@@ -52,5 +52,5 @@ for i in reversed(range(1,5)):
 
 
 word=input("Enter a word of your choice...")
-word[::-1]
+print(word[::-1])
 
