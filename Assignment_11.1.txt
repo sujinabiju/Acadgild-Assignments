@@ -1,0 +1,11 @@
+1.Model building,Model Testing,Applying the model
+
+2.The standard approach to supervised learning is to split the set of example into the training set and testing set.
+
+3.Training set is a dataset used to train a model.Test set is a dataset  used to measure how well the model performs at making predictions on that test set.
+
+4.The general principle of an ensemble method is to combine the predictions of several models built with a given learning algorithm in order to improve robustness over a single model. bagging is a method in ensemble for improving unstable estimation or classification schemes.
+
+5.By using a lot of data overfitting can be avoided, overfitting happens relatively as you have a small dataset, and you try to learn from it. But if you have a small database and you are forced to come with a model based on that. In such situation, you can use a technique known as cross validation. In this method the dataset splits into two section, testing and training datasets, the testing dataset will only test the model while, in training dataset, the datapoints will come up with the model.
+
+In this technique,  a model is usually given a dataset of a known data on which training (training data set) is run and a dataset of unknown data against which the model is tested. The idea of cross validation is to define a dataset to “test” the model in the training phase.
